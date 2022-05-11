@@ -1,0 +1,306 @@
+body,
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin-top: -10px;
+}
+
+.Home {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/bg_wallpaper.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+
+/* The sidebar menu */
+.sidenav {
+    /* Full-height: remove this if you want "auto" height */
+    width: 15%;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: rgba(92, 81, 113, 0.332);
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #eaf0f05f;
+}
+
+
+
+/* Style page content */
+.Home {
+    /*margin-left: 180px; */
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.Home h1 {
+    font-size: 100px;
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Home h6 {
+    font-size: 30px;
+    position: relative;
+    padding-top: 2em;
+    text-align: center;
+    color: #ffffff;
+}
+
+#notification {
+    font-size: 15px;
+    position: relative;
+    padding-top: 3em;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-instagram {
+    background: #ffffff;
+    color: rgb(19, 19, 19);
+}
+
+.fa-github {
+    background: #ffffff;
+    color: rgb(19, 19, 19);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.About {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/bg_wallpaper5.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+
+#About_title {
+    margin-top: 2.5rem;
+    color: brown;
+}
+
+
+.Education {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/bg_wallpaper3.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+
+#Edu_title {
+    margin-top: 2.5rem;
+    margin-bottom: 0.5em;
+
+}
+
+body {
+    margin-top: 20px;
+}
+
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b82f6
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #3b82f6;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+
+
+/* Container for skill bars */
+.container {
+    width: 100%;
+    /* Full width */
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 1px;
+    /* Add top padding */
+    padding-bottom: 1px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.python {
+    width: 70%;
+    background-color: #04AA6D;
+}
+
+/* Green */
+.css {
+    width: 55%;
+    background-color: #2196F3;
+}
+
+/* Blue */
+.js {
+    width: 40%;
+    background-color: #f44336;
+}
+
+/* Red */
+
+
+.Favor {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/bg_wallpaper4.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.Music {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/music.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
