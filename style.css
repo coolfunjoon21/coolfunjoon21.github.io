@@ -248,23 +248,24 @@ body {
     background-color: #04AA6D;
 }
 
-/* Green */
-.java {
+/* Blue */
+.css {
     width: 55%;
     background-color: #2196F3;
 }
 
-/* Blue */
-.frontend {
+
+/* Red */
+.js {
     width: 40%;
     background-color: #f44336;
 }
-
-/* Red */
+/*purple*/
 .english {
     width: 80%;
     background-color: #8a5fe0;
 }
+
 
 .Favor {
     /* The image used */
