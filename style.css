@@ -133,14 +133,14 @@ html {
 }
 
 #About_title {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     color: brown;
 }
 
 
 .Education {
     /* The image used */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/bg_wallpaper3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/bg_education.jpg");
 
     /* Full height */
     height: 100%;
@@ -225,6 +225,20 @@ body {
     opacity: .5
 }
 
+.Skill{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/bg_wallpaper3.jpg");
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative
+}
+
 
 /* Container for skill bars */
 .container {
@@ -242,14 +256,14 @@ body {
     color: white;
     /* White text color */
 }
-
+/* Green */
 .python {
     width: 70%;
     background-color: #04AA6D;
 }
 
 /* Blue */
-.css {
+.java {
     width: 55%;
     background-color: #2196F3;
 }
@@ -265,6 +279,12 @@ body {
     width: 80%;
     background-color: #8a5fe0;
 }
+/*purple*/
+.socialskill {
+    width: 60%;
+    background-color: #f07d36;
+}
+
 
 
 .Favor {
